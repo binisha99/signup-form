@@ -10,6 +10,7 @@ const firstnameError = document.querySelector('#first-name-error');
 const lastnameError = document.querySelector('#last-name-error');
 const emailError = document.querySelector('#email-error');
 const telError = document.querySelector('#tel-error');
+
 firstname.addEventListener("input", function (event) {
   if (firstname.value === '') {
     firstnameError.textContent = 'Please type in your first name.';
